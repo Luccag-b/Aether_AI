@@ -8,6 +8,7 @@ body {
 
 /* HOME*/
 
+
 .navbar {
   background-color: black !important;
   border-bottom: 2px solid grey;
@@ -45,16 +46,32 @@ body {
 }
 
 /* SEÇÃO PRINCIPAL*/
+.ai-color {
+  color: #3eff03;
+}
+.subtitle-color {
+  color: #3eff03;
+}
+.texto-descricao {
+  text-align: justify !important;
+  line-height: 1.6; 
+  color: #e0e0e0;  
+  margin-bottom: 30px;
+}
 .sec1 {
-  background-color: rgba(0, 0, 0, 0.94) !important;
-  padding: 60px 0;
+  background-image: url('../img/Foto satelite.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 60px 0 150px 0;
 }
 
 
 .btn-info {
   background-color: transparent !important;
-  border: 2px solid #00bcd4 !important;
-  color: #00bcd4 !important;
+  border: 2px solid rgb(0, 255, 55) !important;
+  color: rgb(0, 255, 55) !important;
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 1px;
@@ -65,7 +82,7 @@ body {
 }
 
 .btn-info:hover {
-  background-color: #00bcd4 !important;
+  background-color: #3eff03 !important;
   color: rgba(0, 0, 0, 0.94) !important;
 }
 
