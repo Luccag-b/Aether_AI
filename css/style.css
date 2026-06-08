@@ -67,6 +67,12 @@ body {
   padding: 60px 0 150px 0;
 }
 
+.destaque-linha {
+  display: block;
+  margin-bottom: 4px;
+  width: fit-content;
+}
+
 
 .btn-info {
   background-color: transparent !important;
